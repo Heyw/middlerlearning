@@ -1,0 +1,8 @@
+spring:
+    application:
+        name: rockectmq-producer
+
+rokcetmq:
+     producer:
+        namesrvAddr: 10.12.91.105:9876
+        groupName: ${spring.application.name}
